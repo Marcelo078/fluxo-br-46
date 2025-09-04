@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
 import { CTAButton } from "@/components/ui/cta-button";
@@ -191,14 +192,14 @@ const TodosProdutos = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <CTAButton size="lg" asChild>
-                <a href="/fabrica-comissoes">
+                <Link to="/fabrica-comissoes">
                   Ver Mais Vendido
-                </a>
+                </Link>
               </CTAButton>
               <CTAButton variant="outline" size="lg" asChild>
-                <a href="/">
+                <Link to="/">
                   Voltar ao Início
-                </a>
+                </Link>
               </CTAButton>
             </div>
           </div>

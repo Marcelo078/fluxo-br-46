@@ -15,14 +15,14 @@ const Header = () => {
           <Link to="/" className="transition-colors hover:text-primary">
             Início
           </Link>
-          <Link to="/cursos" className="transition-colors hover:text-primary">
-            Cursos Online
+          <Link to="/todos-produtos" className="transition-colors hover:text-primary">
+            Todos os Produtos
           </Link>
-          <Link to="/ferramentas" className="transition-colors hover:text-primary">
+          <Link to="/lovable-ia" className="transition-colors hover:text-primary">
             Ferramentas IA
           </Link>
-          <Link to="/financeiro" className="transition-colors hover:text-primary">
-            Serviços Financeiros
+          <Link to="/formula-negocio-online" className="transition-colors hover:text-primary">
+            Negócios Online
           </Link>
         </nav>
 

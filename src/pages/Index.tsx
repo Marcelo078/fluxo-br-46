@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
 import { CTAButton } from "@/components/ui/cta-button";
@@ -80,9 +81,9 @@ const Index = () => {
                 </a>
               </CTAButton>
               <CTAButton variant="outline" size="lg" asChild>
-                <a href="/fabrica-comissoes">
+                <Link to="/fabrica-comissoes">
                   Produto Mais Vendido
-                </a>
+                </Link>
               </CTAButton>
             </div>
           </div>
@@ -132,9 +133,9 @@ const Index = () => {
           
           <div className="text-center mt-12">
             <CTAButton size="lg" asChild>
-              <a href="/todos-produtos">
+              <Link to="/todos-produtos">
                 Ver Todos os Produtos
-              </a>
+              </Link>
             </CTAButton>
           </div>
         </div>
@@ -193,9 +194,9 @@ const Index = () => {
               Não perca tempo, comece hoje mesmo!
             </p>
             <CTAButton size="xl" variant="secondary" asChild>
-              <a href="/fabrica-comissoes">
+              <Link to="/fabrica-comissoes">
                 Começar Agora - Produto Mais Vendido
-              </a>
+              </Link>
             </CTAButton>
           </div>
         </div>
